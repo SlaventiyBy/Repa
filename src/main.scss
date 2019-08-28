@@ -1,4 +1,128 @@
+@font-face {
+    font-family: myFont;
+    src: url(/fonts/BebasNeueBold.otf);
+}
+
 * {
     margin: 0px;
     padding: 0px;
+    outline: 1px solid black;
+}
+/*Начало хедера*/
+.header {
+    margin: 0 auto; 
+    max-width: 1200px;
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.logo {    
+}
+
+.text_menu {
+    margin-left: 50px;
+}
+
+.text_orange {    
+    font-size: 38px;
+    font-family: Calibri;
+    color: #fb9c06;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-top: 7px;
+}
+
+.text_rabbit {
+    font-family: myFont;
+    font-size: 47px;
+    color: #6e6d6b;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+
+.main_menu {
+    margin-left: 355px;
+}
+
+.pictures_menu {
+    display: flex;
+    padding-top: 15px;    
+}
+
+.menu_home {
+    width: 55px;
+    height: 47px;
+    background-image: url(/img/home.png);
+}
+
+.menu_about {
+    width: 23px;
+    height: 44px;
+    background-image: url(/img/about.png);
+    margin-left: 87px;
+}
+
+.menu_work {
+    width: 43px;
+    height: 43px;
+    background-image: url(/img/work.png);
+    margin-left: 75px;
+}
+
+.menu_blog {
+    width: 40px;
+    height: 40px;
+    background-image: url(/img/blog.png);
+    margin-left: 90px;
+    margin-top: 5px;
+
+}
+
+.menu_contact {
+    width: 50px;
+    height: 35px;
+    background-image: url(/img/contact.png);
+    margin-left: 95px;
+    margin-top: 13px;
+}
+
+.text_main_menu {
+    display: flex;
+    margin-top: 8px;
+}
+
+.text_home, .text_about,
+.text_work, .text_blog,
+.text_contact {
+    font-family: Calibri;
+    font-size: 22px;
+    color: #6e6d6b;
+}
+
+.text_about {
+    margin-left: 70px;
+}
+
+.text_work {
+    margin-left: 73px;
+}
+
+.text_blog {
+    margin-left: 78px;
+}
+
+.text_contact {
+    margin-left: 87px;
+}
+/*Конец хидер*/
+
+/*Начало слайдер*/
+.slider {
+    margin: 0 auto;    
+    max-width: 1600px;
+    max-height: 400px;
+    background-image: url(/img/bigorange.jpg);
+    margin-bottom: 25px;
 }
