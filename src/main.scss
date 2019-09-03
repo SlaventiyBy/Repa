@@ -1,4 +1,41 @@
 * {
     margin: 0px;
     padding: 0px;
+    
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(/fonts/zepter.otf)
+}
+
+@font-face {
+    font-family: myFont2;
+    src: url(/fonts/gomel.otf)
+}
+
+.logo_text {
+    width: 240px;
+}
+
+
+.header {
+    margin: 0 auto;
+    width: 1200px;
+    height: 581px;
+    background-image: url(/img/logo.jpg);
+}
+
+.zepter {
+    text-align: center;
+    font-family: myFont;
+    font-size: 60px;
+    color: gold;
+}
+
+.gomel {
+    text-align: center;
+    font-family: myFont2;
+    font-size: 60px;
+    color: gold;
 }
