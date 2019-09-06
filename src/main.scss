@@ -26,16 +26,74 @@
     background-image: url(/img/logo.jpg);
 }
 
-.zepter {
-    text-align: center;
-    font-family: myFont;
-    font-size: 60px;
-    color: gold;
+.main-wrapper {
+    padding-top: 10px;
+    padding-left: 15px;    
 }
 
-.gomel {
-    text-align: center;
-    font-family: myFont2;
-    font-size: 60px;
-    color: gold;
+.main-menu {
+    float: left;
 }
+
+.main-icons {
+    float: right;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+li {       
+    display:inline-block;
+    border: 1px solid gold;
+    border-radius: 10%;
+    width: 100px; 
+    text-align: center;   
+    }
+
+.menu-text {
+    display: block;
+    padding: 0 10px; 
+    color: gold;
+    font-size: 20px;
+    line-height: 60px;
+    text-decoration: none;
+}
+
+a:hover  {
+    background-color: midnightblue;
+    color: gold;    
+    border-radius: 10%;
+}
+
+.search, .call,
+.write, .group,
+.ask {
+    width: 53px;
+    height: 53px;
+    margin-right: 15px;
+}
+
+.search {
+    background-image: url(/img/search.png);
+}
+
+.call {
+    background-image: url(/img/call.png);
+}
+
+.write {
+    background-image: url(/img/write.png);
+}
+
+.group {
+    background-image: url(/img/group.png);
+}
+.ask {
+    background-image: url(/img/ask.png);
+}
+
