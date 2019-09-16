@@ -1,99 +1,116 @@
+@font-face {
+    font-family: fontAwesome;
+    src: url(/fonts/9466.otf);
+}
+
+@font-face {
+    font-family: openSans;
+    src: url(/fonts/2211.ttf);
+}
+
+@font-face {
+    font-family: openSansItalic;
+    src: url(/fonts/2208.ttf);
+}
+
+@font-face {
+    font-family: openSansBold;
+    src: url(/fonts/2204.ttf);
+}
+
+@font-face {
+    font-family: robotoBold;
+    src: url(/fonts/3955.ttf);
+}
+
 * {
     margin: 0px;
-    padding: 0px;
-    
+    padding: 0px; 
+    // outline: 1px solid yellow;   
 }
 
-@font-face {
-    font-family: myFont;
-    src: url(/fonts/zepter.otf)
-}
-
-@font-face {
-    font-family: myFont2;
-    src: url(/fonts/gomel.otf)
-}
-
-.logo_text {
-    width: 240px;
-}
-
-
-.header {
-    margin: 0 auto;
-    width: 1200px;
-    height: 581px;
-    background-image: url(/img/logo.jpg);
-}
-
-.main-wrapper {
-    padding-top: 10px;
-    padding-left: 15px;    
-}
-
-.main-menu {
-    float: left;
-}
-
-.main-icons {
-    float: right;
-    display: flex;
-    justify-content: space-between;
-}
-
-ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
-li {       
-    display:inline-block;
-    border: 1px solid gold;
-    border-radius: 10%;
-    width: 100px; 
-    text-align: center;   
-    }
-
-.menu-text {
-    display: block;
-    padding: 0 10px; 
-    color: gold;
-    font-size: 20px;
-    line-height: 60px;
+/* начало хедера */
+a {
     text-decoration: none;
 }
 
-a:hover  {
-    background-color: midnightblue;
-    color: gold;    
-    border-radius: 10%;
+.header {    
+    max-width: 1920px;
+    height: 130px;
+    background-color: #131313;        
 }
 
-.search, .call,
-.write, .group,
-.ask {
-    width: 53px;
-    height: 53px;
-    margin-right: 15px;
+.main-menu {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    max-width: 800px;  
 }
 
-.search {
-    background-image: url(/img/search.png);
+.text-menu {
+    display: block;
+    color: #b3b3b3;
+    font-family: openSansBold;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 30px;        
 }
 
-.call {
-    background-image: url(/img/call.png);
+.text-menu:hover {
+    border-bottom: 3px solid red;
+    color: white;    
+}
+/* конец хедера */
+
+/* начало слайдера */
+.slaider {
+    width: 1920px;
+    height: 622px;    
+    background-image: url(/img/slaider.jpg);
 }
 
-.write {
-    background-image: url(/img/write.png);
+.block-wrapper {
+    width: 215px;
+    padding-left: 80px;    
+    padding-top: 35px;
 }
 
-.group {
-    background-image: url(/img/group.png);
-}
-.ask {
-    background-image: url(/img/ask.png);
+.block {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
 }
 
+.left-wrapper {
+    float: left;
+}
+
+.right-wrapper {
+    float: right;
+}
+
+.black {
+    background-color: #131313;
+}
+
+.darkblue {
+    background-color: #065d92;
+}
+
+.darkred {
+    background-color: #9e130c;
+}
+
+.gray {
+    background-color: #b3b3b3;
+}
+
+.blue {
+    background-color: #0f83d1;
+}
+
+.red {
+    background-color: #cc0000;
+}
+/* конец слайдера */
