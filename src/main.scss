@@ -68,6 +68,7 @@ a {
     width: 1920px;
     height: 622px;    
     background-image: url(/img/slaider.jpg);
+    display: flex;
 }
 
 .block-wrapper {
@@ -112,5 +113,44 @@ a {
 
 .red {
     background-color: #cc0000;
+}
+
+.romb-wrapper {
+    margin-top: 100px;
+    margin-left: 79px;
+}
+
+.top-romb, .bottom-romb {
+    display: flex;    
+}
+
+.top-romb {     
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.bottom-romb {
+    margin-left: 190px;
+    margin-top: -40px;
+}
+
+.romb {
+    width: 190px;
+    height: 190px;
+    background-color: #fff;
+    transform: rotate(45deg);
+    margin-right: 110px;    
+}
+
+.glass_unit {
+    transform: rotate(-45deg); 
+    text-align: center; 
+    padding-top: 50px;
+    padding-left: 20px;     
+}
+
+.glass_unit:hover {
+    transform: scale(1.5);   
+           
 }
 /* конец слайдера */
