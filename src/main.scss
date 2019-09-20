@@ -137,10 +137,15 @@ a {
 .romb {
     width: 190px;
     height: 190px;
-    background-color: #fff;
+    background-color: #e7edf2;
     transform: rotate(45deg);
     margin-right: 110px;  
       
+}
+
+.opacity {
+    background-color: #c5cccf;
+    opacity: 0.8;
 }
 
 .glass_unit {
@@ -187,6 +192,7 @@ a {
 .romb img:hover {
     transform: scale(1.2) rotate(-45deg);           
 }
+
 /* конец слайдера */
 /* начало портфолио */
 .wrapper_portfolio {
@@ -255,3 +261,4 @@ h2 {
     padding: 10px 0;
 }
 /* конец портфолио */
+
