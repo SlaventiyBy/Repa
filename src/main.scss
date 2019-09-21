@@ -26,7 +26,7 @@
 * {
     margin: 0px;
     padding: 0px; 
-    // outline: 1px solid yellow;   
+    outline: 1px solid yellow;   
 }
 
 /* начало хедера */
@@ -65,7 +65,7 @@ a {
 
 /* начало слайдера */
 .slaider {
-    width: 1920px;
+    max-width: 1920px;
     height: 622px;    
     background-image: url(/img/slaider.jpg);
     display: flex;
@@ -116,6 +116,27 @@ a {
 }
 
 .romb-wrapper {
+    max-width: 1170px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 140px;
+    padding-left: 90px;
+}
+
+.romb_background {
+    width: 190px;
+    height: 190px;
+    background-color: #e7edf2;
+    transform: rotate(45deg);
+    margin-left: 90px;   
+}
+
+.romb_background :nth-child(1) {
+    margin-left: 0px;
+}
+
+/*.romb-wrapper {
     margin-top: 100px;
     margin-left: 79px;
 }
@@ -192,10 +213,10 @@ a {
 .romb img:hover {
     transform: scale(1.2) rotate(-45deg);           
 }
-
+*/
 /* конец слайдера */
 /* начало портфолио */
-.wrapper_portfolio {
+.wrapper_blocks {
     margin: 0 auto;
     max-width: 1160px;
 }
@@ -261,4 +282,15 @@ h2 {
     padding: 10px 0;
 }
 /* конец портфолио */
+
+.wrapper_service {
+    max-width: 1920px;
+    background-color: #e8e8e8;
+    margin-top: 75px;
+}
+
+.service {
+    margin: 0 auto;
+    max-width: 1160px;
+}
 
