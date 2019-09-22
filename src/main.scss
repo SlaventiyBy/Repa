@@ -35,8 +35,7 @@ a {
 }
 
 .header {    
-    max-width: 1920px;
-    margin: 0 auto;
+    max-width: 1920px;    
     height: 130px;
     background-color: #131313;        
 }
@@ -55,7 +54,9 @@ a {
     font-family: openSansBold;
     font-size: 17px;
     font-weight: 700;
-    line-height: 30px;        
+    line-height: 30px;  
+    padding-top: 15px;
+    padding-left: 15px;      
 }
 
 .text-menu:hover {
@@ -74,7 +75,7 @@ a {
 
 .block-wrapper {
     width: 215px;
-    padding-left: 185px;    
+    padding-left: 80px;    
     padding-top: 35px;
 }
 
@@ -163,7 +164,7 @@ a {
 }
 
 /* конец слайдера */
-/* начало портфолио */
+/* начало портфолио и услуги */
 .wrapper_blocks {    
     max-width: 1920px;
 }
@@ -173,23 +174,23 @@ a {
     max-width: 1160px;
 }
 
-h2 {
+.h2 {
     font-family: robotoBold;
     font-size: 35px;
     font-weight: 700;
     line-height: 23px;
     padding-top: 68px;
+    padding-bottom: 31px;
 }
 
-.text_portfolio {
+.text {
     font-family: openSans;
     font-size: 15px;
     font-weight: 400;
-    line-height: 23px;
-    padding-top: 31px;
+    line-height: 23px;    
 }
 
-.menu_portfolio {
+.menu_portfolio_service {
     margin: 0 auto;
     max-width: 1160px;
     height: 30px;
@@ -207,10 +208,10 @@ h2 {
 }
 
 .menu_all:hover {
-    border-bottom: 7px solid #9e130c;
+    border-bottom: 4px solid #9e130c;
 }
 
-.wrapper_img_portfolio {
+.wrapper_img {
     margin: 0 auto;
     max-width: 1160px;
     display: flex; 
@@ -219,7 +220,7 @@ h2 {
 
 .img_portfolio {
     margin-right: 40px;
-    border: 1px solid #b3b3b3;        
+    border: 1px solid #b3b3b3;            
 }
 
 
@@ -230,19 +231,57 @@ h2 {
     margin-left: 375px;
     text-align: center;
     margin-top: 30px;
+    margin-bottom: 75px;
     border: 3px solid #9e130c;
     padding: 10px 0;
 }
-/* конец портфолио */
 
-.wrapper_service {
-    max-width: 1920px;
+.light_gray {
     background-color: #e8e8e8;
-    margin-top: 75px;
 }
 
-.service {
-    margin: 0 auto;
-    max-width: 1160px;
+.img_service {
+    margin-right: 30px;
+}
+/* конец портфолио и услуги */
+/* начало коментарии */
+.wrapper_comments {
+    max-width: 1920px;
+    background-color: #3a3a3a;
 }
 
+.text_white {
+    color: white;
+}
+
+.comments {
+    max-width: 775px;
+    padding-top: 5px;
+    padding-right: 33px;
+}
+
+.img_man {
+    float: left;
+    padding-right: 33px;
+    padding-top: 7px;
+}
+.ivanov {
+    font-family: openSansBold;
+    font-size: 17px;
+    color: #fff;
+}
+
+.entrepreneur {
+    font-family: openSansItalic;
+    font-size: 12px;
+    color: #fff;
+}
+
+.ivanov_comment {
+    font-family: openSans;
+    font-size: 15px;
+    color: #fff;
+    padding-top: 20px;
+    line-height: 155%;
+}
+/* конец коментарии */
