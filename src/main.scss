@@ -284,4 +284,132 @@ a {
     padding-top: 20px;
     line-height: 155%;
 }
+
+.wrapper_arrow  {
+    max-width: 753px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-bottom: 70px;        
+}
+
+.img_arrow_left {
+    width: 25px;
+    height: 25px;
+    background-color: #707070; 
+    background-image: url(/img/arrow.png);
+    display: inline-block;
+}
+
+.img_arrow_right {
+    width: 25px;
+    height: 25px;
+    background-color: #707070; 
+    background-image: url(/img/arrow2.png);
+    display: inline-block;
+    margin-left: 5px;
+}
 /* конец коментарии */
+/* начало контакты */
+.wrapper_contact {
+    max-width: 1920px;
+    background-color: #131313;
+}
+
+.wrapper_adress-form {
+    max-width: 1170px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.adress {
+    background-color: #9e130c;
+    padding: 40px 40px;    
+}
+
+.text_office {
+    font-family: openSansBold;
+    font-size: 24px;
+    color: #fff;        
+    padding-bottom: 15px;
+}
+
+.text_adress {
+    font-family: openSansBold;
+    font-size: 17px;
+    color: #fff;    
+}
+
+.text_contact {
+    font-family: openSansBold;
+    font-size: 24px;
+    color: #fff;    
+    padding-bottom: 13px;
+}
+
+.bottom {
+    padding-bottom: 15px;
+}
+
+.write {
+    font-family: openSansBold;
+    font-size: 20px;
+    color: #fff;
+}
+
+.form {
+    margin-left: 95px;
+}
+
+form {
+    margin-top: 25px;    
+}
+
+.form_left {
+    float: left;
+}
+
+.form_right {
+    float: right;
+    margin-left: 25px;
+}
+
+.label_text {
+    display: block;
+    color: #fff;
+    font-family: openSansItalic;
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+.input-form {
+    max-width: 270px;    
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.message {
+    width: 355px;
+}
+
+.margin_text {
+    font-family: openSansItalic;
+    font-size: 13px;
+    color: #fff;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 5px;    
+}
+
+.button {
+    width: 108px;
+    text-align: right;
+    background-color: #131313;
+    color: #fff;
+    border: 2px solid #9e130c;
+    font-family: openSans;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 250px;
+    padding: 10px 0px;
+}
+/* конец контакты */
