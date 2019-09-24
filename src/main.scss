@@ -34,6 +34,10 @@ a {
     text-decoration: none;
 }
 
+li {
+    list-style: none
+}
+
 .header {    
     max-width: 1920px;    
     height: 130px;
@@ -52,11 +56,7 @@ a {
     display: block;
     color: #b3b3b3;
     font-family: openSansBold;
-    font-size: 17px;
-    font-weight: 700;
-    line-height: 30px;  
-    padding-top: 15px;
-    padding-left: 15px;      
+    font-size: 17px;          
 }
 
 .text-menu:hover {
@@ -171,7 +171,7 @@ a {
 
 .wrapper_portfolio_service {
     margin: 0 auto;
-    max-width: 1160px;
+    max-width: 1170px;
 }
 
 .h2 {
@@ -323,7 +323,8 @@ a {
 
 .adress {
     background-color: #9e130c;
-    padding: 40px 40px;    
+    max-height: 260px;
+    padding: 30px 40px 0px 40px    
 }
 
 .text_office {
@@ -388,7 +389,7 @@ form {
 }
 
 .message {
-    width: 355px;
+    width: 365px;
 }
 
 .margin_text {
@@ -412,4 +413,22 @@ form {
     margin-left: 250px;
     padding: 10px 0px;
 }
+
+.map {
+    margin-top: 15px;
+    margin-bottom: 75px;
+}
 /* конец контакты */
+.footer {
+    max-width: 1920px;
+    background-color: #000000;
+}
+
+.copyright {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 25px 0px;
+    font-family: openSans;
+    font-size: 15px;
+    color: white;
+}
